@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ChocoFormComponent } from './choco-form/choco-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChocoFormComponent
   ],
   imports: [
     BrowserModule,
